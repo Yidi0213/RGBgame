@@ -1,0 +1,26 @@
+#heading{
+    background: linear-gradient(rgb(234, 110, 238),rgb(79, 105, 224));
+    color: white ;
+}
+
+.colorBlocks{
+    /* border: 2px black dashed; */ 
+    background: rgba(48, 45, 45, 0.603);
+    height: 26vh;
+    width: 19vw;
+    /* hover{
+        cursor: pointer;
+    } */
+    
+    /* cursor: pointer; */
+}
+
+.colorBlocks:hover{
+    cursor: pointer;
+}
+
+.bkg{
+    height: calc(100vh - 195px);
+    background: #6c757d;
+}
+

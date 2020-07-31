@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RGB Color Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0222c9f9cf.js"></script>
+</head>
+<body>
+    <!-- Heading -->
+    <div class= 'py-4' id="heading">
+        <div class="container">
+            <h4 class="text-center">GUESS WHICH PHOTO HAS </h4>
+            <h1 class="text-center display-3">RGB<span class="rgbValue">(X,Y,Z)</span></h1>
+        </div>
+    </div>
+    <!-- Nav bar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center"><button type="button" class="btn btn-light text-primary newColors">NEW COLOR</button></div>
+            <div class="col-sm-4 resultText"></div>
+            <div class="col-sm-4 text-center">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-light text-primary easy">EASY</button>
+                    <button type="button" class="btn btn-light text-primary hard">HARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Color blocks -->
+    <div class="bkg">
+        <div class="jumbotron bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                </div>
+                <div class="row pt-4" id="hardBlock">
+                    <div class="col-4 text-center">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="colorBlocks rounded mx-auto"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
